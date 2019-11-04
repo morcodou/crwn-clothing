@@ -1,0 +1,25 @@
+$base-grey: #ACACAC;
+
+body {
+    font-family: sans-serif;
+    color: #444444;
+}
+
+.quill-embed {
+    box-shadow: 2px 2px 20px 1px $base-grey;
+    height: 100vh;
+    
+    #toolbar {
+        border-bottom: 1px solid $base-grey;
+        .custom-ql-* {
+            &:hover {
+                color: #086ACD;
+            }
+        }
+    }
+    
+    #editor {
+        height: 5em;
+        overflow: scroll;
+    }
+}
